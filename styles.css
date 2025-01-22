@@ -216,7 +216,10 @@ body, h1, h2, h3, p, ul, li, a {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.supstory-card img {
+.story1{
+    position: relative;
+}
+.supstory-card .story1 img {
     min-width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -225,6 +228,7 @@ body, h1, h2, h3, p, ul, li, a {
     font-size: 24px;
     font-weight: bold;
     padding: 2em;
+    margin-top: 3em;
 }
 .supstory-card p {
     padding: 1em;
@@ -240,6 +244,10 @@ body, h1, h2, h3, p, ul, li, a {
     font-size: 15.34px;
     font-weight: bold;
     padding: 1em;
+    margin-top: 2em;
+}
+.story-card .story2{
+    position: relative;
 }
 .story-card img {
     min-width: 100%;
@@ -248,58 +256,58 @@ body, h1, h2, h3, p, ul, li, a {
 }
 
 .date1 {
+    position: absolute;
     color: #ffffff;
     font-size: 15.34px;
     font-weight: medium;
     background: #00cff3;
     border-radius: 20px;
     padding: 10px 40px;
-    position: absolute;
-    margin-top: 31em;
+    margin-top: -2em;
     margin-left: 3em;
 }
 .date2 {
+    position: absolute;
     color: #ffffff;
     font-size: 15.34px;
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 7px 40px;
-    position: absolute;
-    margin-top: 14em;
+    padding: 10px 40px;
+    margin-top: -1.7em;
     margin-left: 2em;
 }
 .date3 {
+    position: absolute;
     color: #ffffff;
     font-size: 15.34px;
     font-weight: medium;
     background: #470474;
     border-radius: 20px;
-    padding: 7px 40px;
-    position: absolute;
-    margin-top: 14em;
+    padding: 10px 40px;
+    margin-top: -1.7em;
     margin-left: 2em;
 }
 .date4 {
+    position: absolute;
     color: #ffffff;
     font-size: 15.34px;
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 7px 40px;
-    position: absolute;
-    margin-top: 14.5em;
+    padding: 10px 40px;
+    margin-top: -1.7em;
     margin-left: 2em;
 }
 .date5 {
+    position: absolute;
     color: #ffffff;
     font-size: 15.34px;
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 7px 40px;
-    position: absolute;
-    margin-top: 14.5em;
+    padding: 10px 40px;
+    margin-top: -1.7em;
     margin-left: 2em;
 }
 
@@ -473,33 +481,21 @@ body, h1, h2, h3, p, ul, li, a {
         font-size: 9.13px;
         font-weight: medium;
         padding: 5px 10px;
-        position: absolute;
-        margin-top: 11em;
-        margin-left: 2em;
     }
     .date3 {
         font-size: 9.13px;
         font-weight: medium;
         padding: 5px 10px;
-        position: absolute;
-        margin-top: 11em;
-        margin-left: 2em;
     }
     .date4 {
         font-size: 9.13px;
         font-weight: medium;
         padding: 5px 10px;
-        position: absolute;
-        margin-top: 11em;
-        margin-left: 2em;
     }
     .date5 {
         font-size: 9.13px;
         font-weight: medium;
         padding: 5px 10px;
-        position: absolute;
-        margin-top: 11em;
-        margin-left: 2em;
     }
     .viewall-btn {
         font-size: 16px;
@@ -532,42 +528,7 @@ body, h1, h2, h3, p, ul, li, a {
         font-weight: medium;
     }
 }
-@media screen and (max-width: 400px) {
-    .date2 {
-        margin-top: 9.1em;
-        margin-left: 2em;
-    }
-    .date3 {
-        margin-top: 9.1em;
-        margin-left: 2em;
-    }
-    .date4 {
-        margin-top: 9.3em;
-        margin-left: 2em;
-    }
-    .date5 {
-        margin-top: 9.3em;
-        margin-left: 2em;
-    }
-}
-@media screen and (max-width: 350px) {
-    .date2 {
-        margin-top: 7em;
-        margin-left: 2em;
-    }
-    .date3 {
-        margin-top: 7em;
-        margin-left: 2em;
-    }
-    .date4 {
-        margin-top: 7.2em;
-        margin-left: 2em;
-    }
-    .date5 {
-        margin-top: 7.2em;
-        margin-left: 2em;
-    }
-}
+
 .marquee {
     width: 100%;
     overflow: hidden;
