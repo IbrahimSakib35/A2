@@ -264,7 +264,7 @@ body, h1, h2, h3, p, ul, li, a {
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 7px 40px;
     position: absolute;
     margin-top: 14em;
     margin-left: 2em;
@@ -275,7 +275,7 @@ body, h1, h2, h3, p, ul, li, a {
     font-weight: medium;
     background: #470474;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 7px 40px;
     position: absolute;
     margin-top: 14em;
     margin-left: 2em;
@@ -286,7 +286,7 @@ body, h1, h2, h3, p, ul, li, a {
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 7px 40px;
     position: absolute;
     margin-top: 14.5em;
     margin-left: 2em;
@@ -297,7 +297,7 @@ body, h1, h2, h3, p, ul, li, a {
     font-weight: medium;
     background: #0e8d1f;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 7px 40px;
     position: absolute;
     margin-top: 14.5em;
     margin-left: 2em;
@@ -530,5 +530,41 @@ body, h1, h2, h3, p, ul, li, a {
     .footer-links ul li {
         font-size: 16.96px;
         font-weight: medium;
+    }
+}
+@media screen and (max-width: 400px) {
+    .date2 {
+        margin-top: 9.1em;
+        margin-left: 2em;
+    }
+    .date3 {
+        margin-top: 9.1em;
+        margin-left: 2em;
+    }
+    .date4 {
+        margin-top: 9.3em;
+        margin-left: 2em;
+    }
+    .date5 {
+        margin-top: 9.3em;
+        margin-left: 2em;
+    }
+}
+@media screen and (max-width: 350px) {
+    .date2 {
+        margin-top: 7em;
+        margin-left: 2em;
+    }
+    .date3 {
+        margin-top: 7em;
+        margin-left: 2em;
+    }
+    .date4 {
+        margin-top: 7.2em;
+        margin-left: 2em;
+    }
+    .date5 {
+        margin-top: 7.2em;
+        margin-left: 2em;
     }
 }
