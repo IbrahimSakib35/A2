@@ -453,6 +453,12 @@ body, h1, h2, h3, p, ul, li, a {
         width: 100%;
         padding: 0 0;
     }
+    .curriculum{
+        background-size: 100%;
+    }
+    .stories{
+        background-size: cover;
+    }
     .stories h2 {
         padding: 1em;
         font-size: 26px;
@@ -498,12 +504,6 @@ body, h1, h2, h3, p, ul, li, a {
     .viewall-btn {
         font-size: 16px;
         font-weight: bold;
-    }
-    .curriculum{
-        background-size: 100%;
-    }
-    .stories{
-        background-size: 50em 50em;
     }
     .footer-container {
         display: flex;
